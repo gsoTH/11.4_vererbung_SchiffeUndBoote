@@ -1,4 +1,4 @@
-import Land
+from land import Land
 
 class Besitzer:
     def __init__(self, vorname, nachname, strasse, hausnummer, plz, ort, land):

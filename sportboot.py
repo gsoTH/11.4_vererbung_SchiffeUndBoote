@@ -1,12 +1,12 @@
-import Land
-import Besitzer
+from land import Land
+from besitzer import Besitzer
 
-class Motorboot:
-    def __init__(self, name, laenge_in_metern, breite_in_metern, hohe_in_metern, tiefgang_in_metern, leistung_in_kw, besitzer):
+class Sportboot:
+    def __init__(self, name, laenge_in_metern, breite_in_metern, hoehe_in_metern, tiefgang_in_metern, leistung_in_kw, besitzer):
         self._name = name
         self._laenge_in_metern = laenge_in_metern
         self._breite_in_metern = breite_in_metern
-        self._hohe_in_metern = hohe_in_metern
+        self._hoehe_in_metern = hoehe_in_metern
         self._tiefgang_in_metern = tiefgang_in_metern
         self._leistung_in_kw = leistung_in_kw
         self._besitzer = besitzer
@@ -14,10 +14,6 @@ class Motorboot:
     @property
     def name(self):
         return self._name
-
-    @name.setter
-    def name(self, value):
-        self._name = value
 
     @property
     def besitzer(self):
@@ -31,33 +27,17 @@ class Motorboot:
     def laenge_in_metern(self):
         return self._laenge_in_metern
 
-    @laenge_in_metern.setter
-    def laenge_in_metern(self, value):
-        self._laenge_in_metern = value
-
     @property
     def breite_in_metern(self):
         return self._breite_in_metern
 
-    @breite_in_metern.setter
-    def breite_in_metern(self, value):
-        self._breite_in_metern = value
-
     @property
-    def hohe_in_metern(self):
-        return self._hohe_in_metern
-
-    @hohe_in_metern.setter
-    def hohe_in_metern(self, value):
-        self._hohe_in_metern = value
+    def hoehe_in_metern(self):
+        return self._hoehe_in_metern
 
     @property
     def tiefgang_in_metern(self):
         return self._tiefgang_in_metern
-
-    @tiefgang_in_metern.setter
-    def tiefgang_in_metern(self, value):
-        self._tiefgang_in_metern = value
 
     @property
     def leistung_in_kw(self):

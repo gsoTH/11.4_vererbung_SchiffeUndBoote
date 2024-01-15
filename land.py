@@ -7,17 +7,9 @@ class Land:
     def name(self):
         return self._name
 
-    @name.setter
-    def name(self, value):
-        self._name = value
-
     @property
     def kuerzel(self):
         return self._kuerzel
-
-    @kuerzel.setter
-    def kuerzel(self, value):
-        self._kuerzel = value
 
 # Beispiel-Nutzung:
 # land = Land("Deutschland", "DE")
