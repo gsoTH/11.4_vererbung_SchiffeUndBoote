@@ -2,47 +2,31 @@ from land import Land
 
 class Besitzer:
     def __init__(self, vorname, nachname, strasse, hausnummer, plz, ort, land):
-        self._vorname = vorname
-        self._nachname = nachname
-        self._strasse = strasse
-        self._hausnummer = hausnummer
-        self._plz = plz
-        self._ort = ort
-        self._land = land
+        self.vorname = vorname
+        self.nachname = nachname
+        self.strasse = strasse
+        self.hausnummer = hausnummer
+        self.plz = plz
+        self.ort = ort
+        self.land = land
 
-    @property
-    def vorname(self):
-        return self._vorname
+    def get_vorname(self):
+        return self.vorname
 
-    @property
-    def nachname(self):
-        return self._nachname
+    def get_nachname(self):
+        return self.nachname
 
-    @property
-    def strasse(self):
-        return self._strasse
+    def get_strasse(self):
+        return self.strasse
 
-    @property
-    def hausnummer(self):
-        return self._hausnummer
+    def get_hausnummer(self):
+        return self.hausnummer
 
-    @property
-    def plz(self):
-        return self._plz
+    def get_plz(self):
+        return self.plz
 
-    @property
-    def ort(self):
-        return self._ort
+    def get_ort(self):
+        return self.ort
 
-    @property
-    def land(self):
-        return self._land
-
-# Beispiel-Nutzung:
-# land_objekt = Land("Deutschland", "DE")
-# besitzer = Besitzer("Max", "Mustermann", "Musterstraße", "123", "12345", "Musterstadt", land_objekt)
-
-# Zugriff auf Properties:
-# print(besitzer.vorname)
-# print(besitzer.nachname)
-# print(besitzer.strasse)
+    def get_land(self):
+        return self.land

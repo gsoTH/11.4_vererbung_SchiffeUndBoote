@@ -1,19 +1,10 @@
 class Land:
     def __init__(self, name, kuerzel):
-        self._name = name
-        self._kuerzel = kuerzel
+        self.name = name
+        self.kuerzel = kuerzel
 
-    @property
-    def name(self):
-        return self._name
+    def get_name(self):
+        return self.name
 
-    @property
-    def kuerzel(self):
-        return self._kuerzel
-
-# Beispiel-Nutzung:
-# land = Land("Deutschland", "DE")
-
-# Zugriff auf Properties:
-# print(land.name)
-# print(land.kuerzel)
+    def get_kuerzel(self):
+        return self.kuerzel

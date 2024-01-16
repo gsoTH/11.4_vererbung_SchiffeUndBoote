@@ -23,13 +23,13 @@ def test_Sportboot__kann_erstellt_werden():
     sportboot = Sportboot(name, laenge_in_metern, breite_in_metern, hoehe_in_metern, tiefgang_in_metern, leistung_in_kw, besitzer)
 
     # Assert
-    assert sportboot.name == name
-    assert sportboot.laenge_in_metern == laenge_in_metern
-    assert sportboot.breite_in_metern == breite_in_metern
-    assert sportboot.hoehe_in_metern == hoehe_in_metern
-    assert sportboot.tiefgang_in_metern == tiefgang_in_metern
-    assert sportboot.leistung_in_kw == leistung_in_kw
-    assert sportboot.besitzer == besitzer
+    assert sportboot.get_name() == name
+    assert sportboot.get_laenge_in_metern() == laenge_in_metern
+    assert sportboot.get_breite_in_metern() == breite_in_metern
+    assert sportboot.get_hoehe_in_metern() == hoehe_in_metern
+    assert sportboot.get_tiefgang_in_metern() == tiefgang_in_metern
+    assert sportboot.get_leistung_in_kw() == leistung_in_kw
+    assert sportboot.get_besitzer() == besitzer
 
 
 def test_besitzer__veraenderbar():
@@ -54,9 +54,10 @@ def test_besitzer__veraenderbar():
                                 "FR"))
 
     # Act 
-    sportboot.besitzer = besitzer_neu
+    sportboot.set_besitzer(besitzer_neu)
+    
     # Assert
-    assert sportboot.besitzer == besitzer_neu
+    assert sportboot.get_besitzer() == besitzer_neu
 
 def test_leistung_in_kw__veraenderbar():
     # Arrange
@@ -65,9 +66,9 @@ def test_leistung_in_kw__veraenderbar():
     leistung_in_kw_neu = 25
 
     # Act 
-    sportboot.leistung_in_kw = leistung_in_kw_neu
+    sportboot.set_leistung_in_kw(leistung_in_kw_neu)
 
     # Assert
-    assert sportboot.leistung_in_kw == leistung_in_kw_neu
+    assert sportboot.get_leistung_in_kw() == leistung_in_kw_neu
 
     

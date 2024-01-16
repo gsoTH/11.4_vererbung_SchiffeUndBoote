@@ -9,5 +9,5 @@ def test_Land__kann_erstellt_werden():
     land = Land(name, kuerzel)
 
     # Assert
-    assert land.name == name
-    assert land.kuerzel == kuerzel
+    assert land.get_name() == name
+    assert land.get_kuerzel() == kuerzel

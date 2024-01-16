@@ -16,12 +16,12 @@ def test_Containerschiff__kann_erstellt_werden():
     containerschiff = Containerschiff(name, land, laenge_in_metern, breite_in_metern, hoehe_in_metern, tiefgang_in_metern, anzahl_container, leistung_in_kw)
 
     # Assert
-    assert containerschiff.name == name
-    assert containerschiff.land == land
-    assert containerschiff.laenge_in_metern == laenge_in_metern
-    assert containerschiff.breite_in_metern == breite_in_metern
-    assert containerschiff.hoehe_in_metern == hoehe_in_metern
-    assert containerschiff.tiefgang_in_metern == tiefgang_in_metern
-    assert containerschiff.anzahl_container == anzahl_container
-    assert containerschiff.leistung_in_kw == leistung_in_kw
+    assert containerschiff.get_name() == name
+    assert containerschiff.get_land() == land
+    assert containerschiff.get_laenge_in_metern() == laenge_in_metern
+    assert containerschiff.get_breite_in_metern() == breite_in_metern
+    assert containerschiff.get_hoehe_in_metern() == hoehe_in_metern
+    assert containerschiff.get_tiefgang_in_metern() == tiefgang_in_metern
+    assert containerschiff.get_anzahl_container() == anzahl_container
+    assert containerschiff.get_leistung_in_kw() == leistung_in_kw
 

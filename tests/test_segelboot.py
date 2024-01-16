@@ -23,13 +23,13 @@ def test_Segelboot__kann_erstellt_werden():
     segelboot = Segelboot(name, laenge_in_metern, breite_in_metern, hoehe_in_metern, tiefgang_in_metern, segelflaeche_in_qm2, besitzer)
 
     # Assert
-    assert segelboot.name == name
-    assert segelboot.laenge_in_metern == laenge_in_metern
-    assert segelboot.breite_in_metern == breite_in_metern
-    assert segelboot.hoehe_in_metern == hoehe_in_metern
-    assert segelboot.tiefgang_in_metern == tiefgang_in_metern
-    assert segelboot.segelflaeche_in_qm2 == segelflaeche_in_qm2
-    assert segelboot.besitzer == besitzer
+    assert segelboot.get_name() == name
+    assert segelboot.get_laenge_in_metern() == laenge_in_metern
+    assert segelboot.get_breite_in_metern() == breite_in_metern
+    assert segelboot.get_hoehe_in_metern() == hoehe_in_metern
+    assert segelboot.get_tiefgang_in_metern() == tiefgang_in_metern
+    assert segelboot.get_segelflaeche_in_qm2() == segelflaeche_in_qm2
+    assert segelboot.get_besitzer() == besitzer
 
 
 def test_besitzer__veraenderbar():
@@ -54,7 +54,7 @@ def test_besitzer__veraenderbar():
                                 "FR"))
 
     # Act 
-    segelboot.besitzer = besitzer_neu
+    segelboot.set_besitzer(besitzer_neu)
     
     # Assert
-    assert segelboot.besitzer == besitzer_neu
+    assert segelboot.get_besitzer() == besitzer_neu

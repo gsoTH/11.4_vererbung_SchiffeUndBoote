@@ -15,10 +15,10 @@ def test_Besitzer__kann_erstellt_werden():
     besitzer = Besitzer(vorname, nachname, strasse, hausnummer, plz, ort, land)
 
     # Assert
-    assert besitzer.vorname == vorname
-    assert besitzer.nachname == nachname
-    assert besitzer.strasse == strasse
-    assert besitzer.hausnummer == hausnummer
-    assert besitzer.plz == plz
-    assert besitzer.ort == ort
-    assert besitzer.land == land
+    assert besitzer.get_vorname() == vorname
+    assert besitzer.get_nachname() == nachname
+    assert besitzer.get_strasse() == strasse
+    assert besitzer.get_hausnummer() == hausnummer
+    assert besitzer.get_plz() == plz
+    assert besitzer.get_ort() == ort
+    assert besitzer.get_land() == land
