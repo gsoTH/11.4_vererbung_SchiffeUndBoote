@@ -8,7 +8,7 @@ Die Struktur der Klassen[^1] ist im nachfolgenden UML-Klassendiagramm zusammenge
 - Dieses Repository arbeitet mit get_*() und set_*() Methoden. Für Lehrzwecke wird somit deutlich, dass man den Zugriff auf die "privaten" Attribute einer Klasse steuert. Das ist allerdings nicht sehr pythonic<sup>TM</sup>, denn es gibt [keine echte Möglichkeit, den Zugriff auf Attribute zu verhindern](https://docs.python.org/3/tutorial/classes.html#private-variables). Eine Variante mit `_`-Präfix und `@Properties` finden Sie in einer [alten Version dieses Repos](https://github.com/gsoTH/11.4_vererbung_SchiffeUndBoote/tree/f77c4745bf010f2622e53c6af7c0e43dfcbe00a3).
 
 ## Arbeitsauftrag
-1)  Refactoring: Wenden Sie das [DRY-Prinzip](https://www.generic.de/blog/dry-vs-kiss-clean-code-prinzipien) an, indem Sie Vererbung einsetzen um Wiederholungen zu minimieren!
+1)  Refactoring: Wenden Sie das [DRY-Prinzip](https://www.generic.de/blog/dry-vs-kiss-clean-code-prinzipien) an, indem Sie [Vererbung](https://www.python-lernen.de/vererbung-python.htm) einsetzen um Wiederholungen zu minimieren!
 
     - Suchen Sie nach gemeinsamen Attributen in den Klassen um daraus geeignete Eltern-Klassen abzuleiten!
 
