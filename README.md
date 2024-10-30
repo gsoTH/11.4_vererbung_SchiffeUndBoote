@@ -34,7 +34,7 @@ Die Struktur der Klassen[^1] ist im nachfolgenden UML-Klassendiagramm zusammenge
     [![](https://mermaid.ink/img/pako:eNotjb0OwjAQg18lurl9gQwMiJGJrrcciVsi5QcllwGqvjtB4MmyLX87ueJBlji7KK1dgmxVEmcfKpyGks31xtkMLdgQ76WomeeTOaMFfaP-OpoooSYJflzt34xJH0hgssN6rNKj8qAcYypdy_LKjqzWjon604vijya7Smw4PqqANBw?type=png)](https://mermaid.live/edit#pako:eNotjb0OwjAQg18lurl9gQwMiJGJrrcciVsi5QcllwGqvjtB4MmyLX87ueJBlji7KK1dgmxVEmcfKpyGks31xtkMLdgQ76WomeeTOaMFfaP-OpoooSYJflzt34xJH0hgssN6rNKj8qAcYypdy_LKjqzWjon604vijya7Smw4PqqANBw)
 
     Soll:
-    [![](https://mermaid.ink/img/pako:eNotjb0OwjAQg18lurl9gYyIkYmutxyJWyLlByWXAaq-e4PAk2Vb_nZyxYMscXZRWrsG2aokzj5UOA0lm9udsxlasCE-SlEzz-aCFvSD-qtoooSaJPjxtH8zJn0igckO67FKj8oDcoypdC3LOzuyWjsm6i8vij-Z7Cqx4TgBf4kz3g?type=png)](https://mermaid.live/edit#pako:eNotjb0OwjAQg18lurl9gYyIkYmutxyJWyLlByWXAaq-e4PAk2Vb_nZyxYMscXZRWrsG2aokzj5UOA0lm9udsxlasCE-SlEzz-aCFvSD-qtoooSaJPjxtH8zJn0igckO67FKj8oDcoypdC3LOzuyWjsm6i8vij-Z7Cqx4TgBf4kz3g)
+    [![](https://mermaid.ink/img/pako:eNotjsFugzAQRH8F7dlBYDDYVtVD1WN7aW6VLy7eJJbAjswiNUH8ex3SPa3mjWZmhSE6BA0mDKOd53dvz8lOJjifcCAfQ_HxZUKR74hnHH9ipOLlcHgt3nD2dMf0hMBgwjRZ73LW-tAM0AUnNKDz6_Bkl5FMrtmy1S4Uj7cwgKa0IIPl6izhfzfokx3nrKLzFNPnc98-k8HVBtAr_IJWbcmlrIRoa6V4LSWDG-i-L7um4aqpRS0z6zcG9xhzaFVK0bW9aGQnKqFazve07x0-Zmx_kExSTA?type=png)](https://mermaid.live/edit#pako:eNotjsFugzAQRH8F7dlBYDDYVtVD1WN7aW6VLy7eJJbAjswiNUH8ex3SPa3mjWZmhSE6BA0mDKOd53dvz8lOJjifcCAfQ_HxZUKR74hnHH9ipOLlcHgt3nD2dMf0hMBgwjRZ73LW-tAM0AUnNKDz6_Bkl5FMrtmy1S4Uj7cwgKa0IIPl6izhfzfokx3nrKLzFNPnc98-k8HVBtAr_IJWbcmlrIRoa6V4LSWDG-i-L7um4aqpRS0z6zcG9xhzaFVK0bW9aGQnKqFazve07x0-Zmx_kExSTA)
 
 [^1]: Der Code wurde ursprünglich in C# verfasst und mit Hilfe von ChatGPT in Python übersetzt. Also halten Sie Ausschau nach Fehlern oder Unstimmigkeiten!
 
