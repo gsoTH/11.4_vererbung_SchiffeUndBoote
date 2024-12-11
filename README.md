@@ -11,10 +11,13 @@ Die Struktur der Klassen[^1] ist im nachfolgenden UML-Klassendiagramm zusammenge
 1)  Refactoring: Wenden Sie das [DRY-Prinzip](https://www.generic.de/blog/dry-vs-kiss-clean-code-prinzipien) an, indem Sie [Vererbung](https://www.python-lernen.de/vererbung-python.htm) einsetzen um Wiederholungen zu minimieren!
 
     - Suchen Sie nach gemeinsamen Attributen in den Klassen um daraus geeignete Eltern-Klassen abzuleiten!
-
+    - Informieren Sie sich über den Einsatz von Abstrakt-Klassen.
+    - Planen Sie die zukünftige Struktur als UML-Klassendiagram!
+  
+2) Implementieren Sie Ihre Planung!
     - Ihr Refactoring ist erfolgreich, wenn alle Testfälle weiterhin erfolgreich sind.
 
-2)  Erweitern Sie den Code, damit die folgenden Anforderungen erfüllt werden:
+3)  Erweitern Sie den Code, damit die folgenden Anforderungen erfüllt werden:
 
     a)  Über `ist_panamax` soll abgefragt werden können, ob man mit diesem Wasserfahrzeug durch den Panamakanal (alte Schleusen) passt.
 
